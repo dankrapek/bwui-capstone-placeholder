@@ -1,0 +1,67 @@
+/* About Page */
+
+.about h1 {
+  width: 100%;
+  padding: 5rem 0;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: inherit;
+  font-stretch: condensed;
+  color: hsla(0, 100%, 100%, 1);
+  font-size: 3rem;
+}
+
+
+
+.about .information {
+  padding: 0 20%;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+.about h3 {
+  margin-top: 40px;
+  margin-bottom: 1rem;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.about p {
+  padding-bottom: 2rem;
+  font-size: inherit;
+  line-height: 1.8;
+}
+
+.about .join {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 40px;
+  border: solid 1px #e7e7e7;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+@media only screen and (max-width: 1100px) {
+  #main {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  #main{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+
+
+  .about h3 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}
